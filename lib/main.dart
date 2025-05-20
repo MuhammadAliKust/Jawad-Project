@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:jawad_project/login.dart';
 import 'package:jawad_project/single_selection.dart';
 
 import 'bottom_bar.dart';
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: BottomBarDemo());
+        home: LoginView());
   }
 }
 
